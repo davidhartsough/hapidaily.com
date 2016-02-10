@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400);
+
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 0;
+	background-color: #fafafa;
+}
+header {
+	height: 448px;
+	border-bottom: 4px solid #fff;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.04);
+}
+#sky {
+	height:224px;
+	background: #FFFEFC;
+	background: -webkit-linear-gradient(top,  #cfeeff 0%,#FFF6E9 100%);
+	background: -webkit-linear-gradient(top, #cfeeff 0%, #FFF6E9 100%);
+	background: linear-gradient(to bottom,  #cfeeff 0%,#FFF6E9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfeeff', endColorstr='#FFF6E9',GradientType=0 );
+}
+header h1 {
+	font-size: 3.5em;
+	font-weight: 100;
+	margin:0;
+	line-height: 1;
+	padding-top: 32px;
+}
+#ocean {
+	height:224px;
+	background: #3db1ff;
+	background: -webkit-linear-gradient(top,  #33A3EF 0%,#0099ff 42%,#55BBFF 100%);
+	background: -webkit-linear-gradient(top, #33A3EF 0%, #0099ff 42%, #55BBFF 100%);
+	background: linear-gradient(to bottom,  #33A3EF 0%,#0099ff 42%,#55BBFF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33A3EF', endColorstr='#55BBFF',GradientType=0 );
+}
+/*
+#77C8FF
+#33A3EF
+
+	background: -moz-linear-gradient(top,  #039BE5 0%, #0099ff 42%, #3db1ff 100%);
+	background: -webkit-linear-gradient(top,  #039BE5 0%,#0099ff 42%,#3db1ff 100%);
+	background: linear-gradient(to bottom,  #039BE5 0%,#0099ff 42%,#3db1ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0083cc', endColorstr='#3db1ff',GradientType=0 );
+*/
+header h2 {
+	font-size: 2.5em;
+	font-weight: 100;
+	margin:0;
+	line-height: 1;
+	padding-top: 128px;
+	color:#fff;
+}
+.small-caps {
+	font-variant: small-caps;
+}
+#sun {
+	height:224px;
+	width:224px;
+	margin: -112px auto;
+	border-radius: 100%;
+}
+#sunrise {
+	height:112px;
+	width:224px;
+	border-radius: 224px 224px 0 0;
+	box-shadow: 0 0 16px 0 rgba(255,204,0,0.42);
+	background: #ff9933;
+	background: -webkit-linear-gradient(top,  #ffb000 0%,#ff9933 50%,#ff8500 100%);
+	background: -webkit-linear-gradient(top, #ffb000 0%, #ff9933 50%, #ff8500 100%);
+	background: linear-gradient(to bottom,  #ffb000 0%,#ff9933 50%,#ff8500 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb000', endColorstr='#ff8500',GradientType=0 );
+}
+#reflection {
+	height:112px;
+	width:224px;
+	border-radius: 0 0 224px 224px;
+	background-color: #ffcc66;
+	opacity: 0.1;
+}
+#overlap {
+	margin: -34px auto -32px auto;
+	height:56px;
+	width:224px;
+	background-color: #3DB1FF;
+	border-radius: 56px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.04);
+    color: #fff;
+    z-index: 999;
+    border: 4px solid #fff;
+}
+#overlap p {
+	margin:0;
+	padding:9px;
+	font-weight: 300;
+}
+#more {
+	display: none;
+}
+main {
+	padding-top:42px;
+}
+.black {
+	margin:0;
+	font-weight: 300;
+	font-size: 1.2em;
+	padding: 12px 8px 8px;
+}
+footer {
+	padding:0 16px 16px;
+	margin-top: 24px;
+	border-top: 4px solid #fff;
+	box-shadow: 0px -4px 8px 0px rgba(0,0,0,0.04);
+	background: #ff9933;
+	background: -webkit-linear-gradient(top,  #FFAA55 0%,#ff9933 72%,#ff8800 100%);
+	background: -webkit-linear-gradient(top, #FFAA55 0%, #ff9933 72%, #ff8800 100%);
+	background: linear-gradient(to bottom,  #FFAA55 0%,#ff9933 72%,#ff8800 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFAA55', endColorstr='#ff8800',GradientType=0 );
+}
+footer p {
+	color:#fff;
+	margin:16px 0;
+	font-size: 1.1em;
+}
+footer p a {
+	color:#000;
+	padding:2px 6px;
+	background-color: #fff;
+	border-radius:12px;
+	text-decoration: none;
+}
+#links {
+	width:224px;
+	height:64px;
+	margin:0 auto;
+}
+#links div {
+	width:110px;
+	height:64px;
+	display: inline-block;
+}
+#links a {
+	display:block;
+	margin:0 auto;
+	height:64px;
+	width:64px;
+	/*
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	border-radius: 100%;
+	background: #ff9933;
+	background: -moz-linear-gradient(top,  #ffb000 0%, #ff9933 50%, #ff8500 100%);
+	background: -webkit-linear-gradient(top,  #ffb000 0%,#ff9933 50%,#ff8500 100%);
+	background: linear-gradient(to bottom,  #ffb000 0%,#ff9933 50%,#ff8500 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb000', endColorstr='#ff8500',GradientType=0 );
+	*/
+}
+#links #tw img {
+	height:64px;
+	width:64px;
+}
+#links #fb img {
+	width:42px;
+	height:42px;
+	padding:11px;
+}
+h2#theme {
+	margin:-34px auto 0;
+    color: #fff;
+    width: 224px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 56px;
+    border:4px solid #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+    background-color: #ff9933;
+	box-shadow: 0px -4px 8px 0px rgba(0,0,0,0.04);
+}
+.blue {
+	color:#0099ff;
+}
+.orange {
+	color:#ff9933;
+}
+/*
+cfeeff
+ffeed7
+FFF6E9
+FFFEFC
+
+#FFF3E0
+#E1F5FE
+#E3F2FD
+
+3db1ff //
+0099ff
+0083cc //
+*/
+@media(max-width: 500px) {
+	header h2 {
+		font-size: 2em;
+	}
+}
+@media(max-width: 650px) {
+	h3.black {
+		width:300px;
+		margin:0 auto;
+	}
+	span.inline-block {
+		display: inline-block;
+	}
+}
+@media(max-width: 450px) {
+	footer p {
+		font-size: 1em;
+	}
+}
+@media(max-width: 400px) {
+	header h2 {
+		font-size: 1.6em;
+	}
+}
+#blue-c {
+	width:300px;
+	height:288px;
+}
+#impact-wrapper {
+	display: table;
+	width:300px;
+	padding:0;
+	height:288px;
+	border-radius: 12px 12px 0 0;
+	background-color: #0099ff;
+}
+#impact-inner {
+	vertical-align: middle;
+	display: table-cell;
+}
+#impact-container {
+	margin:0 auto;
+	width:100%;
+}
+#datepicker-wrapper {
+	width:300px;
+	background-color: #fff;
+	border-radius: 0 0 12px 12px;
+	height:288px;
+}
+.datepicker {
+	margin:0 auto;
+	background-color: #fff;
+	border-radius: 0;
+}
+#calendar {
+	width: 600px;
+	height:288px;
+	margin:0 auto;
+}
+@media (min-width: 400px) {
+	#mid h3 {
+		margin:6px 10.5px;
+	}
+}
+@media (min-width: 651px) {
+	#blue-c, #datepicker-wrapper {
+		float: left;
+	}
+	#impact-wrapper {
+		border-radius: 12px 0 0 12px;
+	}
+	#datepicker-wrapper {
+		border-radius: 0 12px 12px 0;
+	}
+}
+@media (max-width: 650px) {
+	#calendar {
+		width:300px;
+		height:576px;
+	}
+	#mid>h3>span {
+		display: block;
+	}
+}
+#way {
+	margin:0;
+	color:#fff;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	font-size: 2.4em;
+	font-weight: 300;
+	padding:0 8px;
+}
+.datepicker table tr td.today,
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today:hover:hover,
+.datepicker table tr td.today:focus,
+.datepicker table tr td.today:hover:focus,
+.datepicker table tr td.today:active,
+.datepicker table tr td.today:hover:active,
+.datepicker table tr td.today.active,
+.datepicker table tr td.today:hover.active,
+.open .dropdown-toggle.datepicker table tr td.today,
+.open .dropdown-toggle.datepicker table tr td.today:hover {
+	color: #fff;
+	background-color: #ff9933;
+}
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active:hover:hover,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active.disabled:hover:hover,
+.datepicker table tr td.active:focus,
+.datepicker table tr td.active:hover:focus,
+.datepicker table tr td.active.disabled:focus,
+.datepicker table tr td.active.disabled:hover:focus,
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active:hover.active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active.disabled:hover.active,
+.open .dropdown-toggle.datepicker table tr td.active,
+.open .dropdown-toggle.datepicker table tr td.active:hover,
+.open .dropdown-toggle.datepicker table tr td.active.disabled,
+.open .dropdown-toggle.datepicker table tr td.active.disabled:hover {
+	color: #fff;
+	background-color: #0099ff;
+}
+.datepicker-inline {
+	width:auto;
+	width:254px;
+	padding-top: 12px;
+}
+.datepicker.datepicker-inline td,
+.datepicker.datepicker-inline th {
+	padding:0 2px;
+}

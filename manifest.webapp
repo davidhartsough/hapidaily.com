@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "HapiDaily",
+  "launch_path": "/index.html",
+  "description": "HapiDaily: have a positive impact daily. Every day, another way for you to make a difference. 365 simple ideas to make life a better, happier experience.",
+  "icons": {
+    "16": "assets/images/touch/favicon/favicon-16x16.png",
+    "32": "assets/images/touch/favicon/favicon-32x32.png",
+    "48": "assets/images/touch/android/android-chrome-48x48.png",
+    "96": "assets/images/touch/favicon/favicon-96x96.png",
+    "128": "assets/images/touch/firefox/icon-128x128.png",
+    "192": "assets/images/touch/android/android-chrome-192x192.png",
+    "512": "assets/images/touch/firefox/icon-512x512.png"
+  },
+  "developer": {
+    "name": "David Hartsough",
+    "url": "http://davidhartsough.com/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "HapiDaily",
+      "description": "HapiDaily: have a positive impact daily. Every day, another way for you to make a difference. 365 simple ideas to make life a better, happier experience."
+    }
+  }
+}
