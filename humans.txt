@@ -1,14 +1,8 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
 
-# TEAM
+/* TEAM */
+Developer: David Hartsough
+Site: http://davidhartsough.com
 
-  David Hartsough -- Developer -- @David_Hartsough
-
-# THANKS
-
-  David Hartsough
-
-# TECHNOLOGY COLOPHON
-
-  HTML5, CSS3
+/* THANKS */
+David
